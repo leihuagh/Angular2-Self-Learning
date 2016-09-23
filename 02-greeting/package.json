@@ -46,14 +46,15 @@
   "keywords": [
     "Angular2",
     "angular2-seed",
-    "Learning"
+    "Angular 2 Learning"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angular/angular2-seed.git"
+    "url": "git+https://github.com/leihuagh/Angular2-Self-Learning.git"
   },
   "bugs": {
-    "url": "https://github.com/angular/angular2-seed/issues"
+    "url": "https://github.com/leihuagh/Angular2-Self-Learning/issues"
   },
-  "homepage": "https://github.com/angular/angular2-seed#readme"
+  "homepage": "https://github.com/leihuagh/Angular2-Self-Learning.git"
 }
+
