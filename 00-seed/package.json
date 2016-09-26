@@ -73,6 +73,7 @@
     "raw-loader": "0.5.1",
     "remap-istanbul": "^0.6.4",
     "rimraf": "^2.5.1",
+    "sass-lint": "^1.9.1",
     "sass-loader": "^4.0.0",
     "shelljs": "^0.7.0",
     "style-loader": "^0.13.0",

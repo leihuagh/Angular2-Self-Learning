@@ -1,0 +1,13 @@
+// styles applied on :host are applied on the current component, "app" in this case
+@import '../style/variables';
+:host {
+    display: block;
+}
+
+.product-menu {
+    height: 50px;
+    margin-top: 22px;
+}
+.product-item {
+    margin-bottom: 25px;
+}
