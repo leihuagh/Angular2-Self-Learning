@@ -1,0 +1,9 @@
+// styles in src/style directory are applied to the whole page
+@import './variables';
+body {
+    background: $color-nice-blue;
+    color: $color-white;
+}
+a {
+    color: $color-light-blue;
+}
