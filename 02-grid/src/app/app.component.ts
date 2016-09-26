@@ -6,7 +6,4 @@ import '../style/app.scss';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  name = "Lei Hua";
-  
-}
+export class AppComponent {}
