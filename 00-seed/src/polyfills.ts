@@ -1,4 +1,4 @@
-import 'core-js/client/shim';
+import 'es6-shim';
 import 'reflect-metadata';
 require('zone.js/dist/zone');
 
@@ -14,3 +14,4 @@ if (process.env.ENV === 'build') {
 
   require('zone.js/dist/long-stack-trace-zone');
 }
+
