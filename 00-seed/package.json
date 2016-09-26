@@ -89,5 +89,13 @@
     "webpack": "^1.12.13",
     "webpack-dashboard": "^0.1.8",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "keywords": [
+    "angular 2",
+    "angular2",
+    "angular 2 webpack",
+    "angular 2 webpack starter",
+    "angular 2 webpack seed",
+    "angular 2 project starter"
+  ]
 }
