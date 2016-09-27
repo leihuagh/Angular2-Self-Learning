@@ -7,6 +7,5 @@ import '../style/app.scss';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  name = "Lei Hua";
-  
+  name: string = 'Lei Hua';
 }

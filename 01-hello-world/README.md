@@ -39,3 +39,7 @@ It will start a local server using `webpack-dev-server` and then head over to `h
 * in a tab, *if not already running!*: `npm start`
 * in a new tab: `npm run webdriver-start`
 * in another new tab: `npm run e2e`
+
+#### notes
+* name should be in string type
+* name value should be in single quote.
