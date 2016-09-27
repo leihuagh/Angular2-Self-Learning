@@ -1,8 +1,6 @@
 {
   "name": "app",
   "version": "0.0.0",
-  "description": "Learning Angular 2 based on webpack and bootstrap 4",
-  "author": "Lei Hua",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf node_modules doc dist && npm cache clean",
@@ -89,11 +87,5 @@
     "url-loader": "^0.5.6",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1"
-  },
-  "keywords": [
-    "angular 2",
-    "angular 2 webpack",
-    "angular 2 webpack bootstrap 4",
-    "angular 2 webpack bootstrap 4 starter"
-  ]
+  }
 }
