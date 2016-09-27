@@ -13,5 +13,5 @@ Learning course from https://github.com/akserg/learning_bootstrap_angular2
 2. If you get errors when running the "npm install", remove node_modules and apply "npm install again to install the typings"
 
 ### General steps
-$ npm install
-$ npm start
+1. $ npm install
+2. $ npm start
