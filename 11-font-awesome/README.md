@@ -14,7 +14,7 @@
    e: webpack
    in your devDependencies
 3. In your webpack.config.js
-   ```
+   ```json
    module.exports = {    
     module: {
         loaders: [
