@@ -14,6 +14,7 @@
    e: webpack
    in your devDependencies
 3. In your webpack.config.js
+    ```js
    module.exports = {    
     module: {
         loaders: [
@@ -27,6 +28,7 @@
             { test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "file?name=fonts/[name].[ext]" }
         ]
     },
+    ```
 4. In your src/vendor.ts file, add:
    import 'font-awesome/css/font-awesome.min.css';
 
