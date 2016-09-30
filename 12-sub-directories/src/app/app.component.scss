@@ -1,0 +1,15 @@
+// styles applied on :host are applied on the current component, "app" in this case
+@import '../style/variables';
+:host {
+    display: block;
+    color: $middle-gray;
+}
+
+body {
+    padding-top: 60px;
+}
+
+.header-row {
+    margin-top: 70px;
+}
+
