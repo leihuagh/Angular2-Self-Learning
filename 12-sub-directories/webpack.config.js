@@ -39,7 +39,7 @@ module.exports = function makeWebpackConfig() {
     cache: !isTest,
     root: root(),
     // only these extensions get picked up
-    extensions: ['', '.ts', '.js', '.json', '.css', '.scss', '.html', '.jade'],
+    extensions: ['', '.ts', '.js', '.json', '.css', '.scss', '.html', '.pug'],
     alias: {
       'app': 'src/app',
       'common': 'src/common'
@@ -56,7 +56,7 @@ module.exports = function makeWebpackConfig() {
       },
       {test: /\.(png|jpe?g|gif|svg|woff|woff2|ttf|eot|ico)$/, loader: 'file?name=fonts/[name].[hash].[ext]?'},
       {test: /\.json$/, loader: 'json'},
-      { test: /\.jade$/, loader: 'jade-loader' },
+      { test: /\.pug$/, loader: 'pug-loader' },
       {
         test: /\.css$/,
         exclude: root('src', 'app'),
